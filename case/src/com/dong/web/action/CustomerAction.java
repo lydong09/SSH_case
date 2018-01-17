@@ -17,7 +17,7 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 
     @Override
     public Customer getModel() {
-
+        System.out.println("hello");
         return customer;
     }
 
